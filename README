@@ -1,0 +1,5 @@
+A small python script to change the $CFG->wwwroot value in config.php of /var/www/moodle.
+
+I was tired of everytime opening the file and changing the above mentioned field to the current IP. The script does the same using ifconfig and grep.
+
+If any argument is passed, it changes the value back to localhost.
